@@ -1,0 +1,2422 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MarketName",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Main Street Farmers Market",
+          "MAIN STREET FARMERS MARKET",
+          "Main Street Farmer's Market",
+          "Main Street Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Main Street Farmers Market"
+      },
+      {
+        "from": [
+          "Irvington Farmer's Market",
+          "Irvington Farmers Market",
+          "Irvington Farmers Market ",
+          "Irvington Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Irvington Farmer's Market"
+      },
+      {
+        "from": [
+          "Wakefield Farmer's Market",
+          "Wakefield Farmers Market",
+          "Wakefield Farmers Market "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wakefield Farmer's Market"
+      },
+      {
+        "from": [
+          "Columbus Farmers Market",
+          "Columbus Farmers' Market",
+          "columbus farmers market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Columbus Farmers Market"
+      },
+      {
+        "from": [
+          "Rochester Downtown Farmers Market",
+          "Downtown Rochester Farmers Market",
+          "Downtown Rochester Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rochester Downtown Farmers Market"
+      },
+      {
+        "from": [
+          "Harrison Farmer's Market ",
+          "Harrison Farmers Market",
+          "Harrison Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Harrison Farmer's Market "
+      },
+      {
+        "from": [
+          "Goshen Farmers Market",
+          "Goshen Farmer's Market",
+          "Goshen Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Goshen Farmers Market"
+      },
+      {
+        "from": [
+          "Northfield Farmers' Market",
+          "Northfield Farmer's Market",
+          "Northfield Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Northfield Farmers' Market"
+      },
+      {
+        "from": [
+          "Windsor Farmers Market",
+          "WINDSOR FARMERS MARKET",
+          "Windsor Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Windsor Farmers Market"
+      },
+      {
+        "from": [
+          "Auburn Farmers Market",
+          "Auburn Farmer's Market",
+          "Auburn Farmers' market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Auburn Farmers Market"
+      },
+      {
+        "from": [
+          "Springfield Farmers Market",
+          "Springfield Farmer's Market",
+          "Springfield Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Springfield Farmers Market"
+      },
+      {
+        "from": [
+          "WARSAW FARMERS' MARKET",
+          "Warsaw Farmer's Market",
+          "Warsaw Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WARSAW FARMERS' MARKET"
+      },
+      {
+        "from": [
+          "Edgewood Farmers' Market",
+          "Edgewood Farmer's Market",
+          "Edgewood Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Edgewood Farmers' Market"
+      },
+      {
+        "from": [
+          "Washington Farmers Market",
+          "Washington Farmer's Market",
+          "Washington Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Washington Farmers Market"
+      },
+      {
+        "from": [
+          "Monticello Farmer's Market",
+          "Monticello Farmers Market",
+          "Monticello Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Monticello Farmer's Market"
+      },
+      {
+        "from": [
+          "Monroe County Farmers Market",
+          "Monroe County Farmer's Market",
+          "Monroe County Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Monroe County Farmers Market"
+      },
+      {
+        "from": [
+          "Grant County Farmers Market",
+          "Grant County Farmers' Market",
+          "Grant County Farmer's Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Grant County Farmers Market"
+      },
+      {
+        "from": [
+          "Franklin Farmers Market",
+          "Franklin Farmers' Market",
+          "Franklin Farmer's Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Franklin Farmers Market"
+      },
+      {
+        "from": [
+          "Middletown Farmers Market",
+          "Middletown Farmer's Market",
+          "Middletown Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Middletown Farmers Market"
+      },
+      {
+        "from": [
+          "Decatur Farmer's Market",
+          "Decatur Farmers Market",
+          "Decatur Farmers Market "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Decatur Farmer's Market"
+      },
+      {
+        "from": [
+          "Salem Farmers Market",
+          "Salem Farmers' Market",
+          "Salem Farmers' Market "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Salem Farmers Market"
+      },
+      {
+        "from": [
+          "Cooperstown Farmers Market",
+          "Cooperstown Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cooperstown Farmers Market"
+      },
+      {
+        "from": [
+          "Milton Farmers Market",
+          "Milton Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Milton Farmers Market"
+      },
+      {
+        "from": [
+          "Quincy Farmer's Market",
+          "Quincy Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Quincy Farmer's Market"
+      },
+      {
+        "from": [
+          "Chatham Farmer's Market",
+          "Chatham Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chatham Farmer's Market"
+      },
+      {
+        "from": [
+          "Chelsea Farmers Market",
+          "Chelsea Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chelsea Farmers Market"
+      },
+      {
+        "from": [
+          "Oxford Farmers Market",
+          "OXFORD FARMERS MARKET"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Oxford Farmers Market"
+      },
+      {
+        "from": [
+          "Lewisburg Farmer's Market",
+          "Lewisburg Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lewisburg Farmer's Market"
+      },
+      {
+        "from": [
+          "Benton Farmers Market",
+          "Benton Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Benton Farmers Market"
+      },
+      {
+        "from": [
+          "Dearborn Farmers & Artisans Market",
+          "Farmers & Artisans Market Dearborn"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dearborn Farmers & Artisans Market"
+      },
+      {
+        "from": [
+          "Bloomfield Farmers Market",
+          "Bloomfield Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bloomfield Farmers Market"
+      },
+      {
+        "from": [
+          "Morris Farmers Market",
+          "Morris Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Morris Farmers Market"
+      },
+      {
+        "from": [
+          "Kingfield Farmers Market",
+          "Kingfield Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kingfield Farmers Market"
+      },
+      {
+        "from": [
+          "Lake Mills Farmers Market",
+          "Lake Mills Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lake Mills Farmers Market"
+      },
+      {
+        "from": [
+          "Lexington Farmers Market",
+          "Lexington Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lexington Farmers Market"
+      },
+      {
+        "from": [
+          "Midtown Farmers Market",
+          "Mid-Town Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Midtown Farmers Market"
+      },
+      {
+        "from": [
+          "Athens Farmers Market, L.L.C.",
+          "Athens Farmers Market, LLC"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Athens Farmers Market, L.L.C."
+      },
+      {
+        "from": [
+          "Oak Park Farmers Market",
+          "Oak Park Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Oak Park Farmers Market"
+      },
+      {
+        "from": [
+          "Morgan County Farmers' Market Association",
+          "Morgan County farmers' Market Association"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Morgan County Farmers' Market Association"
+      },
+      {
+        "from": [
+          "Greensboro Farmers Market",
+          "Greensboro Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Greensboro Farmers Market"
+      },
+      {
+        "from": [
+          "Holly Springs Farmers Market",
+          "Holly Springs Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Holly Springs Farmers Market"
+      },
+      {
+        "from": [
+          "Sanford Farmers Market",
+          "Sanford Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sanford Farmers Market"
+      },
+      {
+        "from": [
+          "WATERTOWN FARMERS MARKET",
+          "Watertown Farmers market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Watertown Farmers market"
+      },
+      {
+        "from": [
+          "Dutch Country Farmer's Market",
+          "Dutch Country Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dutch Country Farmer's Market"
+      },
+      {
+        "from": [
+          "Wellington Farmers Market",
+          "Wellington Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wellington Farmers Market"
+      },
+      {
+        "from": [
+          "Ellsworth Farmers Market",
+          "Ellsworth Farmer's Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ellsworth Farmers Market"
+      },
+      {
+        "from": [
+          "Lebanon Farmers Market",
+          "Lebanon Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lebanon Farmers Market"
+      },
+      {
+        "from": [
+          "Dexter Farmers Market",
+          "Dexter Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dexter Farmers Market"
+      },
+      {
+        "from": [
+          "Bridgeport Farmers Market",
+          "Bridgeport Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bridgeport Farmers Market"
+      },
+      {
+        "from": [
+          "Pope County Farmers Market",
+          "Pope County Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pope County Farmers Market"
+      },
+      {
+        "from": [
+          "Springville Farmers Market",
+          "Springville Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Springville Farmers Market"
+      },
+      {
+        "from": [
+          "Bowie Farmers Market",
+          "Bowie Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bowie Farmers Market"
+      },
+      {
+        "from": [
+          "NORFOLK FARMERS MARKET",
+          "Norfolk Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Norfolk Farmers Market"
+      },
+      {
+        "from": [
+          "Dillon Farmers Market",
+          "Dillon Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dillon Farmers Market"
+      },
+      {
+        "from": [
+          "Bethany Farmers Market",
+          "Bethany Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bethany Farmers Market"
+      },
+      {
+        "from": [
+          "Wayne Farmers Market",
+          "Wayne Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wayne Farmers Market"
+      },
+      {
+        "from": [
+          "Clinton Farmers Market",
+          "Clinton Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Clinton Farmers Market"
+      },
+      {
+        "from": [
+          "Farmers' Market at The Avenue ( White Marsh)",
+          "The Avenue at White Marsh Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Farmers' Market at The Avenue ( White Marsh)"
+      },
+      {
+        "from": [
+          "HOPE Farmers Market",
+          "Hope Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hope Farmers Market"
+      },
+      {
+        "from": [
+          "Clinton County Farmers Market",
+          "Clinton County Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Clinton County Farmers Market"
+      },
+      {
+        "from": [
+          "Hillsdale Farmers Market",
+          "Hillsdale Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hillsdale Farmers Market"
+      },
+      {
+        "from": [
+          "Union County Farmers Market",
+          "Union County Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Union County Farmers Market"
+      },
+      {
+        "from": [
+          "Highland Park Farmers Market",
+          "Highland Park Farmer's Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Highland Park Farmers Market"
+      },
+      {
+        "from": [
+          "Freedom Farmers Market",
+          "Freedom Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Freedom Farmers Market"
+      },
+      {
+        "from": [
+          "Greenwich Farmers Market",
+          "Greenwich Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Greenwich Farmers Market"
+      },
+      {
+        "from": [
+          "Pittsburg Farmers Market",
+          "Pittsburg Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pittsburg Farmers Market"
+      },
+      {
+        "from": [
+          "Anderson County Farmers Market",
+          "Anderson County Farmers Market "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Anderson County Farmers Market"
+      },
+      {
+        "from": [
+          "Fairfield Farmers Market",
+          "Fairfield Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fairfield Farmers Market"
+      },
+      {
+        "from": [
+          "Cobblestone Farmer's Market",
+          "Cobblestone Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cobblestone Farmer's Market"
+      },
+      {
+        "from": [
+          "Sunnyvale Farmers Market",
+          "Sunnyvale Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sunnyvale Farmers Market"
+      },
+      {
+        "from": [
+          "Winchester Farmers Market",
+          "Winchester Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Winchester Farmers Market"
+      },
+      {
+        "from": [
+          "Lancaster Farmers Market",
+          "Lancaster Farmers'  Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lancaster Farmers Market"
+      },
+      {
+        "from": [
+          "Rye Farmers Market",
+          "Rye Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rye Farmers Market"
+      },
+      {
+        "from": [
+          "Ada Farmer's Market",
+          "Ada Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ada Farmer's Market"
+      },
+      {
+        "from": [
+          "Brighton Farmers Market",
+          "Brighton Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Brighton Farmers Market"
+      },
+      {
+        "from": [
+          "Downtown Farmers Market",
+          "Downtown Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Downtown Farmers Market"
+      },
+      {
+        "from": [
+          "Franklin County Farmers Market",
+          "Franklin County Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Franklin County Farmers Market"
+      },
+      {
+        "from": [
+          "New Haven Farmers Market",
+          "New Haven Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "New Haven Farmers Market"
+      },
+      {
+        "from": [
+          "Mount Vernon Farmers Market",
+          "Mount Vernon Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mount Vernon Farmers Market"
+      },
+      {
+        "from": [
+          "South Side Farmers Market",
+          "South Side Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "South Side Farmers Market"
+      },
+      {
+        "from": [
+          "MIDDLETON FARMERS MARKET",
+          "Middleton Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Middleton Farmers Market"
+      },
+      {
+        "from": [
+          "Tyngsboro Farmers Market",
+          "Tyngsboro Farmers Market "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tyngsboro Farmers Market"
+      },
+      {
+        "from": [
+          "Farmers' gateway Market",
+          "Gateway Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Farmers' gateway Market"
+      },
+      {
+        "from": [
+          "Torrington Farmers Market",
+          "Torrington Farmer's Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Torrington Farmers Market"
+      },
+      {
+        "from": [
+          "Montclair Farmers Market",
+          "Montclair Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Montclair Farmers Market"
+      },
+      {
+        "from": [
+          "Conway Farmers Market",
+          "Conway Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Conway Farmers Market"
+      },
+      {
+        "from": [
+          "Germantown Farmers Market",
+          "Germantown Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Germantown Farmers Market"
+      },
+      {
+        "from": [
+          "Monroe Farmers Market",
+          "Monroe Farmers Market "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Monroe Farmers Market"
+      },
+      {
+        "from": [
+          "Rutherford County Farmers Market",
+          "Rutherford County Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rutherford County Farmers Market"
+      },
+      {
+        "from": [
+          "Ivanhoe Farmers Market",
+          "Ivanhoe Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ivanhoe Farmers Market"
+      },
+      {
+        "from": [
+          "Scott County Farmers' Market",
+          "Scott County Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Scott County Farmers' Market"
+      },
+      {
+        "from": [
+          "Greenfield Farmers Market",
+          "Greenfield Farmer's Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Greenfield Farmers Market"
+      },
+      {
+        "from": [
+          "Carbondale Farmers Market",
+          "Carbondale Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carbondale Farmers Market"
+      },
+      {
+        "from": [
+          "Alma Farmers Market",
+          "Alma Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Alma Farmers Market"
+      },
+      {
+        "from": [
+          "Richland Farmers Market",
+          "Richland Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Richland Farmers Market"
+      },
+      {
+        "from": [
+          "Atascadero  Farmers Market",
+          "Atascadero Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Atascadero  Farmers Market"
+      },
+      {
+        "from": [
+          "Phillip's Farmers Market",
+          "Phillips Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Phillip's Farmers Market"
+      },
+      {
+        "from": [
+          "Hartland Farmer's Market",
+          "Hartland Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hartland Farmer's Market"
+      },
+      {
+        "from": [
+          "Brunswick Farmer's Market",
+          "Brunswick Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Brunswick Farmer's Market"
+      },
+      {
+        "from": [
+          "Market Square Farmers' Market",
+          "Market Square, Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Market Square Farmers' Market"
+      },
+      {
+        "from": [
+          "Canton Farmers Market",
+          "Canton Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Canton Farmers Market"
+      },
+      {
+        "from": [
+          "Lyndon Farmers Market",
+          "Lyndon Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lyndon Farmers Market"
+      },
+      {
+        "from": [
+          "Georgetown Farmers Market",
+          "Georgetown Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Georgetown Farmers Market"
+      },
+      {
+        "from": [
+          "Lisbon Farmers Market",
+          "Lisbon Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lisbon Farmers Market"
+      },
+      {
+        "from": [
+          "Deerfield Farmer's Market",
+          "Deerfield Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Deerfield Farmer's Market"
+      },
+      {
+        "from": [
+          "CORTE BELLA FARMERS' MARKET",
+          "Corte Bella Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Corte Bella Farmers Market"
+      },
+      {
+        "from": [
+          "SMYRNA FARMERS' MARKET ",
+          "Smyrna Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Smyrna Farmers Market"
+      },
+      {
+        "from": [
+          "Johnson County Farmers Market",
+          "Johnson County Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Johnson County Farmers Market"
+      },
+      {
+        "from": [
+          "Perry Farmers Market",
+          "Perry Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Perry Farmers Market"
+      },
+      {
+        "from": [
+          "Farmers Market North Scottsdale",
+          "North Scottsdale Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Farmers Market North Scottsdale"
+      },
+      {
+        "from": [
+          "Bellevue Farmers Market",
+          "Bellevue Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bellevue Farmers Market"
+      },
+      {
+        "from": [
+          "RB's Bushwick Farmers Market ",
+          "RB's Bushwick Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "RB's Bushwick Farmers Market "
+      },
+      {
+        "from": [
+          "West End Farmers Market",
+          "West End Farmer's Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "West End Farmers Market"
+      },
+      {
+        "from": [
+          "Bangor Farmers Market",
+          "Bangor Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bangor Farmers Market"
+      },
+      {
+        "from": [
+          "Bedford Farmers Market",
+          "Bedford Farmer's Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bedford Farmers Market"
+      },
+      {
+        "from": [
+          "Rocky Mount Farmers Market",
+          "Rocky Mount Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rocky Mount Farmers Market"
+      },
+      {
+        "from": [
+          "Falmouth Farmers Market",
+          "Falmouth Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Falmouth Farmers Market"
+      },
+      {
+        "from": [
+          "Greater Baldwinsville & Camillus Farmers' Market (Baldwinsville Location)",
+          "Greater Baldwinsville & Camillus Farmers' Market (Camillus Location)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Greater Baldwinsville & Camillus Farmers' Market (Baldwinsville Location)"
+      },
+      {
+        "from": [
+          "Plymouth Farmers Market",
+          "Plymouth Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Plymouth Farmers Market"
+      },
+      {
+        "from": [
+          "Barre Farmer's Market",
+          "Barre Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Barre Farmer's Market"
+      },
+      {
+        "from": [
+          "Highland Farmers Market",
+          "Highland Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Highland Farmers Market"
+      },
+      {
+        "from": [
+          "FARMERS' MARKET - LINCOLN",
+          "Lincoln Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lincoln Farmers' Market"
+      },
+      {
+        "from": [
+          "Moreno Valley Farmers Market",
+          "Moreno Valley Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Moreno Valley Farmers Market"
+      },
+      {
+        "from": [
+          "Davenport Farmers Market",
+          "Davenport Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Davenport Farmers Market"
+      },
+      {
+        "from": [
+          "Madison County Farmers Market",
+          "Madison County Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Madison County Farmers Market"
+      },
+      {
+        "from": [
+          "Farmers Market",
+          "Farmers Market "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Farmers Market"
+      },
+      {
+        "from": [
+          "Forsyth Farmers' Market",
+          "Forsyth Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Forsyth Farmers' Market"
+      },
+      {
+        "from": [
+          "Chestertown Farmer's Market",
+          "Chestertown Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Chestertown Farmer's Market"
+      },
+      {
+        "from": [
+          "18th Street Farmer's Market",
+          "18th Street Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "18th Street Farmer's Market"
+      },
+      {
+        "from": [
+          "ENFIELD FARMERS MARKET",
+          "Enfield Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Enfield Farmers Market"
+      },
+      {
+        "from": [
+          "Galena Farmers Market",
+          "Galena Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Galena Farmers Market"
+      },
+      {
+        "from": [
+          "DeKalb Farmers Market",
+          "DeKalb Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DeKalb Farmers Market"
+      },
+      {
+        "from": [
+          "Oak Harbor Farmer's Market ",
+          "Oak Harbor Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Oak Harbor Farmer's Market "
+      },
+      {
+        "from": [
+          "Danbury Farmers Market",
+          "Danbury Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Danbury Farmers Market"
+      },
+      {
+        "from": [
+          "Glen Rock Farmer's Market",
+          "Glen Rock Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Glen Rock Farmer's Market"
+      },
+      {
+        "from": [
+          "Bowling Green Community Farmers Market",
+          "Community Farmers Market Bowling Green"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bowling Green Community Farmers Market"
+      },
+      {
+        "from": [
+          "Elgin Farmers Market",
+          "Elgin Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Elgin Farmers Market"
+      },
+      {
+        "from": [
+          "Rogersville Farmer's Market",
+          "Rogersville Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rogersville Farmer's Market"
+      },
+      {
+        "from": [
+          "Clayton Farmers Market",
+          "Clayton Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Clayton Farmers Market"
+      },
+      {
+        "from": [
+          "Laurel Farmers Market",
+          "Laurel Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Laurel Farmers Market"
+      },
+      {
+        "from": [
+          "Jonesboro Farmers Market",
+          "Jonesboro Farmers Market "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jonesboro Farmers Market"
+      },
+      {
+        "from": [
+          "Brookfield Farmers Market",
+          "Brookfield Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Brookfield Farmers Market"
+      },
+      {
+        "from": [
+          "Woodstock Farmers Market",
+          "Woodstock Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Woodstock Farmers Market"
+      },
+      {
+        "from": [
+          "Montgomery County Farmers Market",
+          "Montgomery County Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Montgomery County Farmers Market"
+      },
+      {
+        "from": [
+          "Freeport Farmers Market",
+          "Freeport Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Freeport Farmers Market"
+      },
+      {
+        "from": [
+          "Shelby County Farmers Market",
+          "Shelby County Farmer's Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Shelby County Farmers Market"
+      },
+      {
+        "from": [
+          "Carlisle Farmers Market",
+          "Carlisle Farmer's Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carlisle Farmers Market"
+      },
+      {
+        "from": [
+          "Elberta Farmer's Market",
+          "Elberta Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Elberta Farmer's Market"
+      },
+      {
+        "from": [
+          "Hollywood Farmers Market",
+          "Hollywood Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hollywood Farmers Market"
+      },
+      {
+        "from": [
+          "Farmers' Friday Market",
+          "Friday Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Farmers' Friday Market"
+      },
+      {
+        "from": [
+          "Forest Farmer's Market",
+          "Forest farmers market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Forest Farmer's Market"
+      },
+      {
+        "from": [
+          "Vicksburg Farmers Market",
+          "Vicksburg Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vicksburg Farmers Market"
+      },
+      {
+        "from": [
+          "Boulder Farmers Market",
+          "Boulder Farmers Market "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Boulder Farmers Market"
+      },
+      {
+        "from": [
+          "Easton Farmers' Market",
+          "Easton Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Easton Farmers' Market"
+      },
+      {
+        "from": [
+          "Warren Farmers Market",
+          "Warren Farmer's Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Warren Farmers Market"
+      },
+      {
+        "from": [
+          "Perry County Farmers Market",
+          "Perry County FARMERS' MARKET"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Perry County Farmers Market"
+      },
+      {
+        "from": [
+          "Holland  Farmers Market",
+          "Holland Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Holland  Farmers Market"
+      },
+      {
+        "from": [
+          "Hub City Farmers Market",
+          "Hub City Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hub City Farmers Market"
+      },
+      {
+        "from": [
+          "Madeira Farmers Market",
+          "Madeira Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Madeira Farmers Market"
+      },
+      {
+        "from": [
+          "Belleville Farmer's Market",
+          "Belleville Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Belleville Farmer's Market"
+      },
+      {
+        "from": [
+          "Belmont Farmers Market",
+          "Belmont Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Belmont Farmers Market"
+      },
+      {
+        "from": [
+          "Mountain View Farmers Market ",
+          "Mountain View Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mountain View Farmers Market "
+      },
+      {
+        "from": [
+          "Putnam County Farmers Market",
+          "Putnam County Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Putnam County Farmers Market"
+      },
+      {
+        "from": [
+          "MADISON FARMERS MARKET",
+          "Madison Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MADISON FARMERS MARKET"
+      },
+      {
+        "from": [
+          "Trenton Farmers' Market",
+          "Trenton Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Trenton Farmers' Market"
+      },
+      {
+        "from": [
+          "ABBEVILLE FARMERS MARKET",
+          "Abbeville Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ABBEVILLE FARMERS MARKET"
+      },
+      {
+        "from": [
+          "Hyde Park Farmers Market",
+          "Hyde Park Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hyde Park Farmers Market"
+      },
+      {
+        "from": [
+          "Carthage Farmers Market",
+          "Carthage Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Carthage Farmers Market"
+      },
+      {
+        "from": [
+          "Clark Park Farmer's Market",
+          "Clark Park Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Clark Park Farmer's Market"
+      },
+      {
+        "from": [
+          "Ramsey Farmers Market",
+          "Ramsey Farmers Market "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ramsey Farmers Market"
+      },
+      {
+        "from": [
+          "MARSHFIELD FARMERS MARKET",
+          "Marshfield Farmer's Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Marshfield Farmer's Market"
+      },
+      {
+        "from": [
+          "Nashville Farmer's Market",
+          "Nashville Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nashville Farmer's Market"
+      },
+      {
+        "from": [
+          "Richland County Farmer's Market",
+          "Richland County Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Richland County Farmer's Market"
+      },
+      {
+        "from": [
+          "Waverly Farmers' Market",
+          "Waverly Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Waverly Farmers' Market"
+      },
+      {
+        "from": [
+          "Hoxie Farmers Market",
+          "Hoxie Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hoxie Farmers Market"
+      },
+      {
+        "from": [
+          "Lee Farmers Market",
+          "Lee Farmers\" Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lee Farmers Market"
+      },
+      {
+        "from": [
+          "Johnstown Farmers Market",
+          "Johnstown Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Johnstown Farmers Market"
+      },
+      {
+        "from": [
+          "El Mercado Familiar",
+          "EL MERCADO FAMILIAR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "El Mercado Familiar"
+      },
+      {
+        "from": [
+          "St. Charles Farmers Market",
+          "St. Charles Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "St. Charles Farmers Market"
+      },
+      {
+        "from": [
+          "Hancock Farmers Market",
+          "Hancock Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hancock Farmers Market"
+      },
+      {
+        "from": [
+          "City Hall Farmers Market",
+          "City Hall Farmer's Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "City Hall Farmers Market"
+      },
+      {
+        "from": [
+          "Fulton Farmers Market",
+          "Fulton Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fulton Farmers Market"
+      },
+      {
+        "from": [
+          "Village Farmers Market",
+          "Village Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Village Farmers Market"
+      },
+      {
+        "from": [
+          "Northeast Michigan Regional Farm Market",
+          "northeast michigan regional farm market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Northeast Michigan Regional Farm Market"
+      },
+      {
+        "from": [
+          "Burlington Farmers Market",
+          "Burlington Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Burlington Farmers Market"
+      },
+      {
+        "from": [
+          "Lowell Farmers' Market",
+          "Lowell Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lowell Farmers' Market"
+      },
+      {
+        "from": [
+          "Newport Farmer's Market",
+          "Newport Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Newport Farmer's Market"
+      },
+      {
+        "from": [
+          "Middlebury Farmers' Market",
+          "MIDDLEBURY FARMERS MARKET"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Middlebury Farmers' Market"
+      },
+      {
+        "from": [
+          "Mount Pleasant Farmers Market",
+          "Mount Pleasant Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mount Pleasant Farmers Market"
+      },
+      {
+        "from": [
+          "Rose City Farmers Market",
+          "Rose city farmers market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rose City Farmers Market"
+      },
+      {
+        "from": [
+          "Jazam natural farmer market",
+          "Jazam natural farmer market "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jazam natural farmer market"
+      },
+      {
+        "from": [
+          "Eastside Farmers Market",
+          "Eastside Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Eastside Farmers Market"
+      },
+      {
+        "from": [
+          "Newark Farmers Market",
+          "Newark Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Newark Farmers Market"
+      },
+      {
+        "from": [
+          "BOISE FARMERS MARKET",
+          "Boise Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Boise Farmers Market"
+      },
+      {
+        "from": [
+          "Lone Star Farmer's Market",
+          "Lone Star Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lone Star Farmer's Market"
+      },
+      {
+        "from": [
+          "Helena Farmers Market",
+          "Helena farmers market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Helena Farmers Market"
+      },
+      {
+        "from": [
+          "Bath County Farmers Market",
+          "Bath County Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bath County Farmers Market"
+      },
+      {
+        "from": [
+          "Jefferson Farmers Market",
+          "Jefferson Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jefferson Farmers Market"
+      },
+      {
+        "from": [
+          "North Central Farmers Market",
+          "North Central Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "North Central Farmers Market"
+      },
+      {
+        "from": [
+          "Dallas Farmers Market",
+          "Dallas Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dallas Farmers Market"
+      },
+      {
+        "from": [
+          "DeWitt Farmers Market",
+          "Dewitt Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DeWitt Farmers Market"
+      },
+      {
+        "from": [
+          "Centerville Farmers Market",
+          "Centerville Farmer's Market "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Centerville Farmers Market"
+      },
+      {
+        "from": [
+          "Alliance Farmers Market",
+          "Alliance Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Alliance Farmers Market"
+      },
+      {
+        "from": [
+          "Northeast Farmers Market",
+          "Northeast Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Northeast Farmers Market"
+      },
+      {
+        "from": [
+          "Walton Farmers Market",
+          "Walton Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Walton Farmers Market"
+      },
+      {
+        "from": [
+          "Mentor Farmers Market",
+          "Mentor Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mentor Farmers Market"
+      },
+      {
+        "from": [
+          "Erie Farmers Market",
+          "Erie Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Erie Farmers Market"
+      },
+      {
+        "from": [
+          "Hawthorne Farmer's Market ",
+          "Hawthorne Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hawthorne Farmer's Market "
+      },
+      {
+        "from": [
+          "Sheridan Farmers Market",
+          "Sheridan Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sheridan Farmers Market"
+      },
+      {
+        "from": [
+          "Randolph County Farmers Market",
+          "Randolph County Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Randolph County Farmers Market"
+      },
+      {
+        "from": [
+          "Jackson County Farmers Market",
+          "Jackson County Farmers market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Jackson County Farmers Market"
+      },
+      {
+        "from": [
+          "Fayette County Farmers Market",
+          "Fayette County Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fayette County Farmers Market"
+      },
+      {
+        "from": [
+          "Roots & Stems Community Farmers Market",
+          "Roots & Stems Community Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Roots & Stems Community Farmers Market"
+      },
+      {
+        "from": [
+          "Columbus Downtown Farmer's Market",
+          "Downtown Columbus Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Columbus Downtown Farmer's Market"
+      },
+      {
+        "from": [
+          "Lake Placid Farmers Market",
+          "Lake Placid Farmers' Market "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lake Placid Farmers Market"
+      },
+      {
+        "from": [
+          "Eureka Farmers Market",
+          "Eureka Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Eureka Farmers Market"
+      },
+      {
+        "from": [
+          "Bristol Farmers Market",
+          "Bristol Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bristol Farmers Market"
+      },
+      {
+        "from": [
+          "MCCOMB FARMERS' MARKET",
+          "McComb Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "McComb Farmers Market"
+      },
+      {
+        "from": [
+          "Kingston Farmers Market",
+          "Kingston Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kingston Farmers Market"
+      },
+      {
+        "from": [
+          "Mercer County Farmers Market",
+          "Mercer County Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mercer County Farmers Market"
+      },
+      {
+        "from": [
+          "Lafayette Farmers Market",
+          "Lafayette Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lafayette Farmers Market"
+      },
+      {
+        "from": [
+          "Adams County Farmer's Market",
+          "Adams County Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Adams County Farmer's Market"
+      },
+      {
+        "from": [
+          "Brownsville Farmers Market",
+          "Brownsville Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Brownsville Farmers Market"
+      },
+      {
+        "from": [
+          "WOODBURY FARMERS MARKET",
+          "Woodbury Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Woodbury Farmers Market"
+      },
+      {
+        "from": [
+          "Burlington Downtown Farmers Market",
+          "Downtown Burlington Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Burlington Downtown Farmers Market"
+      },
+      {
+        "from": [
+          "BERLIN FARMERS MARKET",
+          "Berlin Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Berlin Farmers Market"
+      },
+      {
+        "from": [
+          "Ennis Farmer's Market",
+          "Ennis Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ennis Farmer's Market"
+      },
+      {
+        "from": [
+          "Princeton Farmers Market",
+          "Princeton Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Princeton Farmers Market"
+      },
+      {
+        "from": [
+          "Historic Newburgh Farmers Market",
+          "Historic Newburgh Farmers Market "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Historic Newburgh Farmers Market"
+      },
+      {
+        "from": [
+          "Morgantown Farmers Market",
+          "Morgantown Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Morgantown Farmers Market"
+      },
+      {
+        "from": [
+          "Marysville Farmers Market",
+          "Marysville Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Marysville Farmers Market"
+      },
+      {
+        "from": [
+          "Bourbon Farmers Market",
+          "Bourbon Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bourbon Farmers Market"
+      },
+      {
+        "from": [
+          "Montgomery Farmers Market",
+          "MONTGOMERY FARMERS MARKET"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Montgomery Farmers Market"
+      },
+      {
+        "from": [
+          "St. Paul Farmers Market ",
+          "St. Paul Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "St. Paul Farmers Market "
+      },
+      {
+        "from": [
+          "Independence Farmers Market",
+          "Independence Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Independence Farmers Market"
+      },
+      {
+        "from": [
+          "Market in the Loop",
+          "The Market in the Loop"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Market in the Loop"
+      },
+      {
+        "from": [
+          "Northville Farmers Market",
+          "Northville Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Northville Farmers Market"
+      },
+      {
+        "from": [
+          "Albany  Downtown Farmers Market",
+          "Downtown Albany Farmers Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Albany  Downtown Farmers Market"
+      },
+      {
+        "from": [
+          "Hobart Farmers Market",
+          "Hobart Farmers' Market"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hobart Farmers Market"
+      }
+    ],
+    "description": "Mass edit cells in column MarketName"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Season1Date",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Season1Date using expression value.toString()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Season1Date",
+    "expression": "grel:value.split('to')[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Season1 Start Date",
+    "columnInsertIndex": 13,
+    "description": "Create column Season1 Start Date at index 13 based on column Season1Date using expression grel:value.split('to')[0]"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Season1 Start Date",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Season1 Start Date using expression value.toDate()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Season1Date",
+    "expression": "grel:value.split('to ')[-1]",
+    "onError": "set-to-blank",
+    "newColumnName": "Season1 End Date",
+    "columnInsertIndex": 13,
+    "description": "Create column Season1 End Date at index 13 based on column Season1Date using expression grel:value.split('to ')[-1]"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Season1 Start Date",
+    "description": "Remove column Season1 Start Date"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Season1Date",
+    "expression": "grel:value.split(' to')[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Season1 Start Date",
+    "columnInsertIndex": 13,
+    "description": "Create column Season1 Start Date at index 13 based on column Season1Date using expression grel:value.split(' to')[0]"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Season1Date",
+    "description": "Remove column Season1Date"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Season2Date",
+    "expression": "grel:value.split(' to')[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Season2 Start Date",
+    "columnInsertIndex": 16,
+    "description": "Create column Season2 Start Date at index 16 based on column Season2Date using expression grel:value.split(' to')[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Season2Date",
+    "expression": "grel:value.split('to ')[-1]",
+    "onError": "set-to-blank",
+    "newColumnName": "Season2 End Date",
+    "columnInsertIndex": 16,
+    "description": "Create column Season2 End Date at index 16 based on column Season2Date using expression grel:value.split('to ')[-1]"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Season2Date",
+    "description": "Remove column Season2Date"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Season3Date",
+    "expression": "grel:value.split(' to')[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Season3 Start Date",
+    "columnInsertIndex": 19,
+    "description": "Create column Season3 Start Date at index 19 based on column Season3Date using expression grel:value.split(' to')[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Season3Date",
+    "expression": "grel:value.split('to ')[-1]",
+    "onError": "set-to-blank",
+    "newColumnName": "Season3 End Date",
+    "columnInsertIndex": 19,
+    "description": "Create column Season3 End Date at index 19 based on column Season3Date using expression grel:value.split('to ')[-1]"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Season3Date",
+    "description": "Remove column Season3Date"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Season3 End Date",
+    "index": 19,
+    "description": "Move column Season3 End Date to position 19"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Season4Date",
+    "expression": "grel:value.split(' to')[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Season4 Start Date",
+    "columnInsertIndex": 22,
+    "description": "Create column Season4 Start Date at index 22 based on column Season4Date using expression grel:value.split(' to')[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Season4Date",
+    "expression": "grel:value.split('to ')[-1]",
+    "onError": "set-to-blank",
+    "newColumnName": "Season4 End Date",
+    "columnInsertIndex": 22,
+    "description": "Create column Season4 End Date at index 22 based on column Season4Date using expression grel:value.split('to ')[-1]"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Season4Date",
+    "description": "Remove column Season4Date"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Season4 End Date",
+    "index": 22,
+    "description": "Move column Season4 End Date to position 22"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Location",
+    "description": "Remove column Location"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "updateTime",
+    "expression": "grel:value.split(' ', 0)[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Update date",
+    "columnInsertIndex": 62,
+    "description": "Create column Update date at index 62 based on column updateTime using expression grel:value.split(' ', 0)[0]"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Update date",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Update date using expression value.toDate()"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "updateTime",
+    "description": "Remove column updateTime"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MarketName",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MarketName using expression value.trim()"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "OtherMedia",
+    "description": "Remove column OtherMedia"
+  }
+]
