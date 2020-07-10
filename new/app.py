@@ -5,6 +5,8 @@ import logging
 import pathlib
 import sys
 import warnings
+from uszipcode import SearchEngine
+
 logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 warnings.simplefilter(action='ignore', category=Warning)
 
@@ -232,6 +234,8 @@ class File:
         Saves the cleaned dataframe as a CSV. Processed tag is appended to the original file name and saved in the current directory.
         '''
 
+        if os.path.exists(self.clean_file):
+            os.remove(self.clean_file)
         self.dataframe.to_csv(self.clean_file)
         logging.info('Processed file saved as: {}'.format(self.clean_file))
 
@@ -241,12 +245,120 @@ class File:
         '''
 
         self.dataframe.columns = self.dataframe.columns.str.strip()
+        if os.path.exists('{}.db'.format(table)):
+            os.remove('{}.db'.format(table))
         self.sql = sqlite3.connect('{}.db'.format(table))
         self.dataframe.to_sql(table, self.sql)
         self.sql.close()
 
         logging.info('Database exported as: {}.db'.format(table))
 
+    def _add_missing_zip_codes(self):
+        '''
+        Uses coordinates to add missing zipcodes.
+        '''
+
+        search = SearchEngine(simple_zipcode = True)
+        for index, value in self.dataframe.iterrows():
+            zipcode = value['zip']
+            x = value['x']
+            y = value['y']
+            if zipcode == None:
+                try:
+                    result = search.by_coordinates(y, x, radius=30, returns=1)
+                    self.dataframe['zip'][index] = result[0].zipcode
+                except:
+                    pass
+
+
+    def _add_missing_locations_using_zip(self):
+        '''
+        Replaces all missing locations with a valid city, county and zip.
+        '''
+
+        us_state_abbrev = {
+            'Alabama': 'AL',
+            'Alaska': 'AK',
+            'American Samoa': 'AS',
+            'Arizona': 'AZ',
+            'Arkansas': 'AR',
+            'California': 'CA',
+            'Colorado': 'CO',
+            'Connecticut': 'CT',
+            'Delaware': 'DE',
+            'District of Columbia': 'DC',
+            'Florida': 'FL',
+            'Georgia': 'GA',
+            'Guam': 'GU',
+            'Hawaii': 'HI',
+            'Idaho': 'ID',
+            'Illinois': 'IL',
+            'Indiana': 'IN',
+            'Iowa': 'IA',
+            'Kansas': 'KS',
+            'Kentucky': 'KY',
+            'Louisiana': 'LA',
+            'Maine': 'ME',
+            'Maryland': 'MD',
+            'Massachusetts': 'MA',
+            'Michigan': 'MI',
+            'Minnesota': 'MN',
+            'Mississippi': 'MS',
+            'Missouri': 'MO',
+            'Montana': 'MT',
+            'Nebraska': 'NE',
+            'Nevada': 'NV',
+            'New Hampshire': 'NH',
+            'New Jersey': 'NJ',
+            'New Mexico': 'NM',
+            'New York': 'NY',
+            'North Carolina': 'NC',
+            'North Dakota': 'ND',
+            'Northern Mariana Islands':'MP',
+            'Ohio': 'OH',
+            'Oklahoma': 'OK',
+            'Oregon': 'OR',
+            'Pennsylvania': 'PA',
+            'Puerto Rico': 'PR',
+            'Rhode Island': 'RI',
+            'South Carolina': 'SC',
+            'South Dakota': 'SD',
+            'Tennessee': 'TN',
+            'Texas': 'TX',
+            'Utah': 'UT',
+            'Vermont': 'VT',
+            'Virgin Islands': 'VI',
+            'Virginia': 'VA',
+            'Washington': 'WA',
+            'West Virginia': 'WV',
+            'Wisconsin': 'WI',
+            'Wyoming': 'WY'
+        }
+
+        abbrev_us_state = dict(map(reversed, us_state_abbrev.items()))
+        search = SearchEngine(simple_zipcode = True)
+
+        for index, value in self.dataframe.iterrows():
+            try:
+                zipcode = str(value['zip'])
+                city = value['city']
+                county = value['County']
+                state = value['State']
+                zipcode_dict = search.by_zipcode(zipcode)
+                zipcode_dict = zipcode_dict.to_dict()
+                if city == None:
+                    new_city = zipcode_dict["major_city"]
+                    self.dataframe['city'][index] = new_city 
+                if county == None:
+                    new_county = zipcode_dict["county"]
+                    self.dataframe['County'][index] = new_county
+                if state == None:
+                    new_state = zipcode_dict["state"]
+                    new_state = abbrev_us_state[new_state]
+                    self.dataframe['State'][index] = new_state
+            except:
+                pass
+    
 
 if __name__ == '__main__':
 
@@ -277,9 +389,6 @@ if __name__ == '__main__':
             file.clean()
             file.save_as_csv()
 
-            if args.to_database:
-                file.convert_to_database()
-
-
-
+        if args.to_database:
+            file.convert_to_database()
 
