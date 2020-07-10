@@ -41,6 +41,8 @@ class File:
         self._fix_noon_time()
         self._convert_month_to_date()
         self._convert_nan_to_None()
+        self._add_missing_zip_codes()
+        self._add_missing_locations_using_zip()
 
 
     def _split_season_columns(self):
