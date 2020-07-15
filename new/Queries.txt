@@ -1,0 +1,60 @@
+SELECT * 
+FROM markets 
+Group BY FMID 
+HAVING COUNT(*) > 1;
+
+
+Delete from markets where (city,state,street,Marketname,updateTime) In
+(SELECT city,state,street,Marketname, MIN(updateTime) AS MinDateTime
+FROM markets
+GROUP BY city,state,street,Marketname
+HAVING COUNT(*) > 1);
+
+Update markets
+Set
+"Season2 Start Date" = '',
+"Season2 End Date" = '',
+"Season2Time Mon" = '',
+"Season2Time Tue" = '',
+"Season2Time Wed" = '',
+"Season2Time Thu" = '',
+"Season2Time Fri" = '',
+"Season2Time Sat" = '',
+"Season2Time Sun" = ''
+where
+markets."Season1 Start Date" = markets."Season2 Start Date"
+and markets."Season2 Start Date" != ''
+and markets."Season1 End Date" = markets."Season2 End Date"
+and markets."Season1Time Mon" = markets."Season2Time Mon"
+and markets."Season1Time Tue" = markets."Season2Time Tue"
+and markets."Season1Time Wed" = markets."Season2Time Wed"
+and markets."Season1Time Thu" = markets."Season2Time Thu"
+and markets."Season1Time Fri" = markets."Season2Time Fri"
+and markets."Season1Time Sat" = markets."Season2Time Sat"
+and markets."Season1Time Sun" = markets."Season2Time Sun";
+
+Update markets
+Set
+"Season3 Start Date" = '',
+"Season3 End Date" = '',
+"Season3Time Mon" = '',
+"Season3Time Tue" = '',
+"Season3Time Wed" = '',
+"Season3Time Thu" = '',
+"Season3Time Fri" = '',
+"Season3Time Sat" = '',
+"Season3Time Sun" = ''
+where
+markets."Season1 Start Date" = markets."Season3 Start Date"
+and markets."Season3 Start Date" != ''
+and markets."Season1 End Date" = markets."Season3 End Date"
+and markets."Season1Time Mon" = markets."Season3Time Mon"
+and markets."Season1Time Tue" = markets."Season3Time Tue"
+and markets."Season1Time Wed" = markets."Season3Time Wed"
+and markets."Season1Time Thu" = markets."Season3Time Thu"
+and markets."Season1Time Fri" = markets."Season3Time Fri"
+and markets."Season1Time Sat" = markets."Season3Time Sat"
+and markets."Season1Time Sun" = markets."Season3Time Sun";
+
+
+
