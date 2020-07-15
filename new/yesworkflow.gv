@@ -1,0 +1,267 @@
+digraph Workflow {
+rankdir=LR
+fontname=Courier; fontsize=18; labelloc=t
+label=Linear_OR
+subgraph cluster_workflow_box_outer { label=""; color=black; penwidth=2
+subgraph cluster_workflow_box_inner { label=""; color=white
+node[shape=box style=filled fillcolor="#CCFFCC" peripheries=1 fontname=Courier]
+core/text-transform0# [shape=record rankdir=LR label="{{<f0> "core/text-transform0#" |<f1> Text transform on cells in column MarketName using expression value.toTitlecase()}}"];
+"core/text-transform1#" [shape=record rankdir=LR label="{{<f0> "core/text-transform1#" |<f1> Text transform on cells in column MarketName using expression value.trim()}}"];
+"core/text-transform2#" [shape=record rankdir=LR label="{{<f0> "core/text-transform2#" |<f1> Text transform on cells in column street using expression value.trim()}}"];
+"core/text-transform3#" [shape=record rankdir=LR label="{{<f0> "core/text-transform3#" |<f1> Text transform on cells in column street using expression value.trim()}}"];
+"core/text-transform4#" [shape=record rankdir=LR label="{{<f0> "core/text-transform4#" |<f1> Text transform on cells in column city using expression value.trim()}}"];
+"core/text-transform5#" [shape=record rankdir=LR label="{{<f0> "core/text-transform5#" |<f1> Text transform on cells in column city using expression value.toTitlecase()}}"];
+"core/text-transform6#" [shape=record rankdir=LR label="{{<f0> "core/text-transform6#" |<f1> Text transform on cells in column County using expression value.trim()}}"];
+"core/text-transform7#" [shape=record rankdir=LR label="{{<f0> "core/text-transform7#" |<f1> Text transform on cells in column County using expression value.toTitlecase()}}"];
+"core/text-transform8#" [shape=record rankdir=LR label="{{<f0> "core/text-transform8#" |<f1> Text transform on cells in column State using expression value.trim()}}"];
+"core/text-transform9#" [shape=record rankdir=LR label="{{<f0> "core/text-transform9#" |<f1> Text transform on cells in column State using expression value.toTitlecase()}}"];
+"core/text-transform10#" [shape=record rankdir=LR label="{{<f0> "core/text-transform10#" |<f1> Text transform on cells in column Website using expression value.trim()}}"];
+"core/text-transform11#" [shape=record rankdir=LR label="{{<f0> "core/text-transform11#" |<f1> Text transform on cells in column Facebook using expression value.trim()}}"];
+"core/text-transform12#" [shape=record rankdir=LR label="{{<f0> "core/text-transform12#" |<f1> Text transform on cells in column Twitter using expression value.trim()}}"];
+"core/text-transform13#" [shape=record rankdir=LR label="{{<f0> "core/text-transform13#" |<f1> Text transform on cells in column Youtube using expression value.trim()}}"];
+"core/text-transform14#" [shape=record rankdir=LR label="{{<f0> "core/text-transform14#" |<f1> Text transform on cells in column zip using expression value.toNumber()}}"];
+"core/text-transform15#" [shape=record rankdir=LR label="{{<f0> "core/text-transform15#" |<f1> Text transform on cells in column x using expression value.toNumber()}}"];
+"core/text-transform16#" [shape=record rankdir=LR label="{{<f0> "core/text-transform16#" |<f1> Text transform on cells in column y using expression value.toNumber()}}"];
+"core/text-transform17#" [shape=record rankdir=LR label="{{<f0> "core/text-transform17#" |<f1> Text transform on cells in column updateTime using expression value.toDate()}}"];
+"core/text-transform18#" [shape=record rankdir=LR label="{{<f0> "core/text-transform18#" |<f1> Text transform on cells in column Season1 Start Date using expression value.toDate()}}"];
+"core/text-transform19#" [shape=record rankdir=LR label="{{<f0> "core/text-transform19#" |<f1> Text transform on cells in column Season1 End Date using expression value.toDate()}}"];
+"core/text-transform20#" [shape=record rankdir=LR label="{{<f0> "core/text-transform20#" |<f1> Text transform on cells in column Season2 Start Date using expression value.toDate()}}"];
+"core/text-transform21#" [shape=record rankdir=LR label="{{<f0> "core/text-transform21#" |<f1> Text transform on cells in column Season2 End Date using expression value.toDate()}}"];
+"core/text-transform22#" [shape=record rankdir=LR label="{{<f0> "core/text-transform22#" |<f1> Text transform on cells in column Season3 Start Date using expression value.toDate()}}"];
+"core/text-transform23#" [shape=record rankdir=LR label="{{<f0> "core/text-transform23#" |<f1> Text transform on cells in column Season3 End Date using expression value.toDate()}}"];
+"core/text-transform24#" [shape=record rankdir=LR label="{{<f0> "core/text-transform24#" |<f1> Text transform on cells in column Season4 Start Date using expression value.toDate()}}"];
+"core/text-transform25#" [shape=record rankdir=LR label="{{<f0> "core/text-transform25#" |<f1> Text transform on cells in column Season4 End Date using expression value.toDate()}}"];
+"core/column-removal0#" [shape=record rankdir=LR label="{{<f0> "core/column-removal0#" |<f1> Remove column Column}}"];
+"core/text-transform26#" [shape=record rankdir=LR label="{{<f0> "core/text-transform26#" |<f1> Text transform on cells in column updateTime using expression value.trim()}}"];
+"core/text-transform27#" [shape=record rankdir=LR label="{{<f0> "core/text-transform27#" |<f1> Text transform on cells in column updateTime using expression value.replace(/\\s+/,' ')}}"];
+"core/text-transform28#" [shape=record rankdir=LR label="{{<f0> "core/text-transform28#" |<f1> Text transform on cells in column updateTime using expression value.toDate()}}"];
+"core/text-transform29#" [shape=record rankdir=LR label="{{<f0> "core/text-transform29#" |<f1> Text transform on cells in column Season1 Start Date using expression value.trim()}}"];
+"core/text-transform30#" [shape=record rankdir=LR label="{{<f0> "core/text-transform30#" |<f1> Text transform on cells in column Season1 Start Date using expression value.replace(/\\s+/,' ')}}"];
+"core/text-transform31#" [shape=record rankdir=LR label="{{<f0> "core/text-transform31#" |<f1> Text transform on cells in column Season1 Start Date using expression value.toDate()}}"];
+"core/text-transform32#" [shape=record rankdir=LR label="{{<f0> "core/text-transform32#" |<f1> Text transform on cells in column Season1 End Date using expression value.trim()}}"];
+"core/text-transform33#" [shape=record rankdir=LR label="{{<f0> "core/text-transform33#" |<f1> Text transform on cells in column Season1 End Date using expression value.replace(/\\s+/,' ')}}"];
+"core/text-transform34#" [shape=record rankdir=LR label="{{<f0> "core/text-transform34#" |<f1> Text transform on cells in column Season1 End Date using expression value.toDate()}}"];
+"core/text-transform35#" [shape=record rankdir=LR label="{{<f0> "core/text-transform35#" |<f1> Text transform on cells in column Season2 Start Date using expression value.trim()}}"];
+"core/text-transform36#" [shape=record rankdir=LR label="{{<f0> "core/text-transform36#" |<f1> Text transform on cells in column Season2 Start Date using expression value.replace(/\\s+/,' ')}}"];
+"core/text-transform37#" [shape=record rankdir=LR label="{{<f0> "core/text-transform37#" |<f1> Text transform on cells in column Season2 Start Date using expression value.toDate()}}"];
+"core/text-transform38#" [shape=record rankdir=LR label="{{<f0> "core/text-transform38#" |<f1> Text transform on cells in column Season2 End Date using expression value.trim()}}"];
+"core/text-transform39#" [shape=record rankdir=LR label="{{<f0> "core/text-transform39#" |<f1> Text transform on cells in column Season2 End Date using expression value.replace(/\\s+/,' ')}}"];
+"core/text-transform40#" [shape=record rankdir=LR label="{{<f0> "core/text-transform40#" |<f1> Text transform on cells in column Season2 End Date using expression value.toDate()}}"];
+"core/text-transform41#" [shape=record rankdir=LR label="{{<f0> "core/text-transform41#" |<f1> Text transform on cells in column Season3 Start Date using expression value.replace(/\\s+/,' ')}}"];
+"core/text-transform42#" [shape=record rankdir=LR label="{{<f0> "core/text-transform42#" |<f1> Text transform on cells in column Season3 Start Date using expression value.trim()}}"];
+"core/text-transform43#" [shape=record rankdir=LR label="{{<f0> "core/text-transform43#" |<f1> Text transform on cells in column Season3 Start Date using expression value.toDate()}}"];
+"core/text-transform44#" [shape=record rankdir=LR label="{{<f0> "core/text-transform44#" |<f1> Text transform on cells in column Season3 End Date using expression value.trim()}}"];
+"core/text-transform45#" [shape=record rankdir=LR label="{{<f0> "core/text-transform45#" |<f1> Text transform on cells in column Season4 Start Date using expression value.trim()}}"];
+"core/text-transform46#" [shape=record rankdir=LR label="{{<f0> "core/text-transform46#" |<f1> Text transform on cells in column Season4 End Date using expression value.trim()}}"];
+"core/text-transform47#" [shape=record rankdir=LR label="{{<f0> "core/text-transform47#" |<f1> Text transform on cells in column Season3 End Date using expression value.replace(/\\s+/,' ')}}"];
+"core/text-transform48#" [shape=record rankdir=LR label="{{<f0> "core/text-transform48#" |<f1> Text transform on cells in column Season4 Start Date using expression value.replace(/\\s+/,' ')}}"];
+"core/text-transform49#" [shape=record rankdir=LR label="{{<f0> "core/text-transform49#" |<f1> Text transform on cells in column Season4 End Date using expression value.replace(/\\s+/,' ')}}"];
+"core/text-transform50#" [shape=record rankdir=LR label="{{<f0> "core/text-transform50#" |<f1> Text transform on cells in column Season3 End Date using expression value.toDate()}}"];
+"core/text-transform51#" [shape=record rankdir=LR label="{{<f0> "core/text-transform51#" |<f1> Text transform on cells in column Season4 Start Date using expression value.toDate()}}"];
+"core/text-transform52#" [shape=record rankdir=LR label="{{<f0> "core/text-transform52#" |<f1> Text transform on cells in column Season4 End Date using expression value.toDate()}}"];
+edge[fontname=Helvetica]
+"core/mass-edit0#" -> "core/text-transform0#" [label=table1]
+"core/text-transform0#" -> "core/text-transform1#" [label=table2]
+"core/text-transform1#" -> "core/text-transform2#" [label=table3]
+"core/text-transform2#" -> "core/text-transform3#" [label=table4]
+"core/text-transform3#" -> "core/text-transform4#" [label=table5]
+"core/text-transform4#" -> "core/text-transform5#" [label=table6]
+"core/text-transform5#" -> "core/text-transform6#" [label=table7]
+"core/text-transform6#" -> "core/text-transform7#" [label=table8]
+"core/text-transform7#" -> "core/text-transform8#" [label=table9]
+"core/text-transform8#" -> "core/text-transform9#" [label=table10]
+"core/text-transform9#" -> "core/text-transform10#" [label=table11]
+"core/text-transform10#" -> "core/text-transform11#" [label=table12]
+"core/text-transform11#" -> "core/text-transform12#" [label=table13]
+"core/text-transform12#" -> "core/text-transform13#" [label=table14]
+"core/text-transform13#" -> "core/text-transform14#" [label=table15]
+"core/text-transform14#" -> "core/text-transform15#" [label=table16]
+"core/text-transform15#" -> "core/text-transform16#" [label=table17]
+"core/text-transform16#" -> "core/text-transform17#" [label=table18]
+"core/text-transform17#" -> "core/text-transform18#" [label=table19]
+"core/text-transform18#" -> "core/text-transform19#" [label=table20]
+"core/text-transform19#" -> "core/text-transform20#" [label=table21]
+"core/text-transform20#" -> "core/text-transform21#" [label=table22]
+"core/text-transform21#" -> "core/text-transform22#" [label=table23]
+"core/text-transform22#" -> "core/text-transform23#" [label=table24]
+"core/text-transform23#" -> "core/text-transform24#" [label=table25]
+"core/text-transform24#" -> "core/text-transform25#" [label=table26]
+"core/text-transform25#" -> "core/column-removal0#" [label=table27]
+"core/column-removal0#" -> "core/text-transform26#" [label=table28]
+"core/text-transform26#" -> "core/text-transform27#" [label=table29]
+"core/text-transform27#" -> "core/text-transform28#" [label=table30]
+"core/text-transform28#" -> "core/text-transform29#" [label=table31]
+"core/text-transform29#" -> "core/text-transform30#" [label=table32]
+"core/text-transform30#" -> "core/text-transform31#" [label=table33]
+"core/text-transform31#" -> "core/text-transform32#" [label=table34]
+"core/text-transform32#" -> "core/text-transform33#" [label=table35]
+"core/text-transform33#" -> "core/text-transform34#" [label=table36]
+"core/text-transform34#" -> "core/text-transform35#" [label=table37]
+"core/text-transform35#" -> "core/text-transform36#" [label=table38]
+"core/text-transform36#" -> "core/text-transform37#" [label=table39]
+"core/text-transform37#" -> "core/text-transform38#" [label=table40]
+"core/text-transform38#" -> "core/text-transform39#" [label=table41]
+"core/text-transform39#" -> "core/text-transform40#" [label=table42]
+"core/text-transform40#" -> "core/text-transform41#" [label=table43]
+"core/text-transform41#" -> "core/text-transform42#" [label=table44]
+"core/text-transform42#" -> "core/text-transform43#" [label=table45]
+"core/text-transform43#" -> "core/text-transform44#" [label=table46]
+"core/text-transform44#" -> "core/text-transform45#" [label=table47]
+"core/text-transform45#" -> "core/text-transform46#" [label=table48]
+"core/text-transform46#" -> "core/text-transform47#" [label=table49]
+"core/text-transform47#" -> "core/text-transform48#" [label=table50]
+"core/text-transform48#" -> "core/text-transform49#" [label=table51]
+"core/text-transform49#" -> "core/text-transform50#" [label=table52]
+"core/text-transform50#" -> "core/text-transform51#" [label=table53]
+"core/text-transform51#" -> "core/text-transform52#" [label=table54]
+}}
+subgraph cluster_input_ports_group_outer { label=""; color=white
+subgraph cluster_input_ports_group_inner { label=""; color=white
+node[shape=circle style=filled fillcolor="#FFFFFF" peripheries=1 fontname=Courier width=0.2]
+"col-name:Twitter_input_port" [label=""]
+"col-name:street_input_port" [label=""]
+"col-name:y_input_port" [label=""]
+"expression:value.trim()_input_port" [label=""]
+"col-name:Season3_Start_Date_input_port" [label=""]
+"col-name:Season1_End_Date_input_port" [label=""]
+"col-name:Season2_End_Date_input_port" [label=""]
+"col-name:Website_input_port" [label=""]
+"col-name:x_input_port" [label=""]
+"col-name:Season1_Start_Date_input_port" [label=""]
+"col-name:Facebook_input_port" [label=""]
+"col-name:zip_input_port" [label=""]
+"col-name:MarketName_input_port" [label=""]
+"col-name:Season2_Start_Date_input_port" [label=""]
+"col-name:Youtube_input_port" [label=""]
+"col-name:updateTime_input_port" [label=""]
+"col-name:County_input_port" [label=""]
+"expression:value.toTitlecase()_input_port" [label=""]
+"col-name:city_input_port" [label=""]
+"expression:value.toDate()_input_port" [label=""]
+"expression:value.replace(/\\s+/,'_')_input_port" [label=""]
+"col-name:Season4_End_Date_input_port" [label=""]
+"col-name:Column_input_port" [label=""]
+"col-name:Season4_Start_Date_input_port" [label=""]
+"col-name:Season3_End_Date_input_port" [label=""]
+"col-name:State_input_port" [label=""]
+"expression:value.toNumber()_input_port" [label=""]
+table0_input_port [label=""]
+}}
+subgraph cluster_output_ports_group_outer { label=""; color=white
+subgraph cluster_output_ports_group_inner { label=""; color=white
+node[shape=circle style=filled fillcolor="#FFFFFF" peripheries=1 fontname=Courier width=0.2]
+table55_output_port [label=""]
+}}
+edge[fontname=Helvetica]
+"col-name:MarketName_input_port" -> "core/mass-edit0#" [label="col-name:MarketName"]
+"col-name:MarketName_input_port" -> "core/text-transform0#" [label="col-name:MarketName"]
+"col-name:MarketName_input_port" -> "core/text-transform1#" [label="col-name:MarketName"]
+table0_input_port -> "core/mass-edit0#" [label=table0]
+"expression:value.toTitlecase()_input_port" -> "core/text-transform0#" [label="expression:value.toTitlecase()"]
+"expression:value.toTitlecase()_input_port" -> "core/text-transform5#" [label="expression:value.toTitlecase()"]
+"expression:value.toTitlecase()_input_port" -> "core/text-transform7#" [label="expression:value.toTitlecase()"]
+"expression:value.toTitlecase()_input_port" -> "core/text-transform9#" [label="expression:value.toTitlecase()"]
+"expression:value.trim()_input_port" -> "core/text-transform1#" [label="expression:value.trim()"]
+"expression:value.trim()_input_port" -> "core/text-transform2#" [label="expression:value.trim()"]
+"expression:value.trim()_input_port" -> "core/text-transform3#" [label="expression:value.trim()"]
+"expression:value.trim()_input_port" -> "core/text-transform4#" [label="expression:value.trim()"]
+"expression:value.trim()_input_port" -> "core/text-transform6#" [label="expression:value.trim()"]
+"expression:value.trim()_input_port" -> "core/text-transform8#" [label="expression:value.trim()"]
+"expression:value.trim()_input_port" -> "core/text-transform10#" [label="expression:value.trim()"]
+"expression:value.trim()_input_port" -> "core/text-transform11#" [label="expression:value.trim()"]
+"expression:value.trim()_input_port" -> "core/text-transform12#" [label="expression:value.trim()"]
+"expression:value.trim()_input_port" -> "core/text-transform13#" [label="expression:value.trim()"]
+"expression:value.trim()_input_port" -> "core/text-transform26#" [label="expression:value.trim()"]
+"expression:value.trim()_input_port" -> "core/text-transform29#" [label="expression:value.trim()"]
+"expression:value.trim()_input_port" -> "core/text-transform32#" [label="expression:value.trim()"]
+"expression:value.trim()_input_port" -> "core/text-transform35#" [label="expression:value.trim()"]
+"expression:value.trim()_input_port" -> "core/text-transform38#" [label="expression:value.trim()"]
+"expression:value.trim()_input_port" -> "core/text-transform42#" [label="expression:value.trim()"]
+"expression:value.trim()_input_port" -> "core/text-transform44#" [label="expression:value.trim()"]
+"expression:value.trim()_input_port" -> "core/text-transform45#" [label="expression:value.trim()"]
+"expression:value.trim()_input_port" -> "core/text-transform46#" [label="expression:value.trim()"]
+"col-name:street_input_port" -> "core/text-transform2#" [label="col-name:street"]
+"col-name:street_input_port" -> "core/text-transform3#" [label="col-name:street"]
+"col-name:city_input_port" -> "core/text-transform4#" [label="col-name:city"]
+"col-name:city_input_port" -> "core/text-transform5#" [label="col-name:city"]
+"col-name:County_input_port" -> "core/text-transform6#" [label="col-name:County"]
+"col-name:County_input_port" -> "core/text-transform7#" [label="col-name:County"]
+"col-name:State_input_port" -> "core/text-transform8#" [label="col-name:State"]
+"col-name:State_input_port" -> "core/text-transform9#" [label="col-name:State"]
+"col-name:Website_input_port" -> "core/text-transform10#" [label="col-name:Website"]
+"col-name:Facebook_input_port" -> "core/text-transform11#" [label="col-name:Facebook"]
+"col-name:Twitter_input_port" -> "core/text-transform12#" [label="col-name:Twitter"]
+"col-name:Youtube_input_port" -> "core/text-transform13#" [label="col-name:Youtube"]
+"col-name:zip_input_port" -> "core/text-transform14#" [label="col-name:zip"]
+"expression:value.toNumber()_input_port" -> "core/text-transform14#" [label="expression:value.toNumber()"]
+"expression:value.toNumber()_input_port" -> "core/text-transform15#" [label="expression:value.toNumber()"]
+"expression:value.toNumber()_input_port" -> "core/text-transform16#" [label="expression:value.toNumber()"]
+"col-name:x_input_port" -> "core/text-transform15#" [label="col-name:x"]
+"col-name:y_input_port" -> "core/text-transform16#" [label="col-name:y"]
+"col-name:updateTime_input_port" -> "core/text-transform17#" [label="col-name:updateTime"]
+"col-name:updateTime_input_port" -> "core/text-transform26#" [label="col-name:updateTime"]
+"col-name:updateTime_input_port" -> "core/text-transform27#" [label="col-name:updateTime"]
+"col-name:updateTime_input_port" -> "core/text-transform28#" [label="col-name:updateTime"]
+"expression:value.toDate()_input_port" -> "core/text-transform17#" [label="expression:value.toDate()"]
+"expression:value.toDate()_input_port" -> "core/text-transform18#" [label="expression:value.toDate()"]
+"expression:value.toDate()_input_port" -> "core/text-transform19#" [label="expression:value.toDate()"]
+"expression:value.toDate()_input_port" -> "core/text-transform20#" [label="expression:value.toDate()"]
+"expression:value.toDate()_input_port" -> "core/text-transform21#" [label="expression:value.toDate()"]
+"expression:value.toDate()_input_port" -> "core/text-transform22#" [label="expression:value.toDate()"]
+"expression:value.toDate()_input_port" -> "core/text-transform23#" [label="expression:value.toDate()"]
+"expression:value.toDate()_input_port" -> "core/text-transform24#" [label="expression:value.toDate()"]
+"expression:value.toDate()_input_port" -> "core/text-transform25#" [label="expression:value.toDate()"]
+"expression:value.toDate()_input_port" -> "core/text-transform28#" [label="expression:value.toDate()"]
+"expression:value.toDate()_input_port" -> "core/text-transform31#" [label="expression:value.toDate()"]
+"expression:value.toDate()_input_port" -> "core/text-transform34#" [label="expression:value.toDate()"]
+"expression:value.toDate()_input_port" -> "core/text-transform37#" [label="expression:value.toDate()"]
+"expression:value.toDate()_input_port" -> "core/text-transform40#" [label="expression:value.toDate()"]
+"expression:value.toDate()_input_port" -> "core/text-transform43#" [label="expression:value.toDate()"]
+"expression:value.toDate()_input_port" -> "core/text-transform50#" [label="expression:value.toDate()"]
+"expression:value.toDate()_input_port" -> "core/text-transform51#" [label="expression:value.toDate()"]
+"expression:value.toDate()_input_port" -> "core/text-transform52#" [label="expression:value.toDate()"]
+"col-name:Season1_Start_Date_input_port" -> "core/text-transform18#" [label="col-name:Season1_Start_Date"]
+"col-name:Season1_Start_Date_input_port" -> "core/text-transform29#" [label="col-name:Season1_Start_Date"]
+"col-name:Season1_Start_Date_input_port" -> "core/text-transform30#" [label="col-name:Season1_Start_Date"]
+"col-name:Season1_Start_Date_input_port" -> "core/text-transform31#" [label="col-name:Season1_Start_Date"]
+"col-name:Season1_End_Date_input_port" -> "core/text-transform19#" [label="col-name:Season1_End_Date"]
+"col-name:Season1_End_Date_input_port" -> "core/text-transform32#" [label="col-name:Season1_End_Date"]
+"col-name:Season1_End_Date_input_port" -> "core/text-transform33#" [label="col-name:Season1_End_Date"]
+"col-name:Season1_End_Date_input_port" -> "core/text-transform34#" [label="col-name:Season1_End_Date"]
+"col-name:Season2_Start_Date_input_port" -> "core/text-transform20#" [label="col-name:Season2_Start_Date"]
+"col-name:Season2_Start_Date_input_port" -> "core/text-transform35#" [label="col-name:Season2_Start_Date"]
+"col-name:Season2_Start_Date_input_port" -> "core/text-transform36#" [label="col-name:Season2_Start_Date"]
+"col-name:Season2_Start_Date_input_port" -> "core/text-transform37#" [label="col-name:Season2_Start_Date"]
+"col-name:Season2_End_Date_input_port" -> "core/text-transform21#" [label="col-name:Season2_End_Date"]
+"col-name:Season2_End_Date_input_port" -> "core/text-transform38#" [label="col-name:Season2_End_Date"]
+"col-name:Season2_End_Date_input_port" -> "core/text-transform39#" [label="col-name:Season2_End_Date"]
+"col-name:Season2_End_Date_input_port" -> "core/text-transform40#" [label="col-name:Season2_End_Date"]
+"col-name:Season3_Start_Date_input_port" -> "core/text-transform22#" [label="col-name:Season3_Start_Date"]
+"col-name:Season3_Start_Date_input_port" -> "core/text-transform41#" [label="col-name:Season3_Start_Date"]
+"col-name:Season3_Start_Date_input_port" -> "core/text-transform42#" [label="col-name:Season3_Start_Date"]
+"col-name:Season3_Start_Date_input_port" -> "core/text-transform43#" [label="col-name:Season3_Start_Date"]
+"col-name:Season3_End_Date_input_port" -> "core/text-transform23#" [label="col-name:Season3_End_Date"]
+"col-name:Season3_End_Date_input_port" -> "core/text-transform44#" [label="col-name:Season3_End_Date"]
+"col-name:Season3_End_Date_input_port" -> "core/text-transform47#" [label="col-name:Season3_End_Date"]
+"col-name:Season3_End_Date_input_port" -> "core/text-transform50#" [label="col-name:Season3_End_Date"]
+"col-name:Season4_Start_Date_input_port" -> "core/text-transform24#" [label="col-name:Season4_Start_Date"]
+"col-name:Season4_Start_Date_input_port" -> "core/text-transform45#" [label="col-name:Season4_Start_Date"]
+"col-name:Season4_Start_Date_input_port" -> "core/text-transform48#" [label="col-name:Season4_Start_Date"]
+"col-name:Season4_Start_Date_input_port" -> "core/text-transform51#" [label="col-name:Season4_Start_Date"]
+"col-name:Season4_End_Date_input_port" -> "core/text-transform25#" [label="col-name:Season4_End_Date"]
+"col-name:Season4_End_Date_input_port" -> "core/text-transform46#" [label="col-name:Season4_End_Date"]
+"col-name:Season4_End_Date_input_port" -> "core/text-transform49#" [label="col-name:Season4_End_Date"]
+"col-name:Season4_End_Date_input_port" -> "core/text-transform52#" [label="col-name:Season4_End_Date"]
+"col-name:Column_input_port" -> "core/column-removal0#" [label="col-name:Column"]
+"expression:value.replace(/\\s+/,'_')_input_port" -> "core/text-transform27#" [label="expression:value.replace(/\\s+/,'_')"]
+"expression:value.replace(/\\s+/,'_')_input_port" -> "core/text-transform30#" [label="expression:value.replace(/\\s+/,'_')"]
+"expression:value.replace(/\\s+/,'_')_input_port" -> "core/text-transform33#" [label="expression:value.replace(/\\s+/,'_')"]
+"expression:value.replace(/\\s+/,'_')_input_port" -> "core/text-transform36#" [label="expression:value.replace(/\\s+/,'_')"]
+"expression:value.replace(/\\s+/,'_')_input_port" -> "core/text-transform39#" [label="expression:value.replace(/\\s+/,'_')"]
+"expression:value.replace(/\\s+/,'_')_input_port" -> "core/text-transform41#" [label="expression:value.replace(/\\s+/,'_')"]
+"expression:value.replace(/\\s+/,'_')_input_port" -> "core/text-transform47#" [label="expression:value.replace(/\\s+/,'_')"]
+"expression:value.replace(/\\s+/,'_')_input_port" -> "core/text-transform48#" [label="expression:value.replace(/\\s+/,'_')"]
+"expression:value.replace(/\\s+/,'_')_input_port" -> "core/text-transform49#" [label="expression:value.replace(/\\s+/,'_')"]
+edge[fontname=Helvetica]
+"core/text-transform52#" -> table55_output_port [label=table55]
+}
